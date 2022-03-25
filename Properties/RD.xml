@@ -1,0 +1,7 @@
+﻿<Directives xmlns="http://schemas.microsoft.com/netfx/2013/01/metadata">
+	<Application>
+		<Assembly Name="System.Text.Json.Serialization.Converters">
+			<Type Name="System.Text.Json.Serialization.Converters.IEnumerableOfTConverter`2[System.Linq.Enumerable.SelectRangeIterator`1[dotnet6-csharp10-minimal-api.WeatherForecast], [dotnet6-csharp10-minimal-api.WeatherForecast]]" Dynamic="Required All" />
+		</Assembly>		
+	</Application>
+</Directives>
