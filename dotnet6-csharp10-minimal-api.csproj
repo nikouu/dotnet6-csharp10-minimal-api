@@ -5,9 +5,18 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>dotnet6_csharp10_minimal_api</RootNamespace>
-	  
-	<PublishSingleFile>true</PublishSingleFile>
-	<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+	  <IlcGenerateCompleteTypeMetadata>true</IlcGenerateCompleteTypeMetadata>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Properties\RD.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\RD.xml" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.DotNet.ILCompiler" Version="7.0.0-*" />
+	</ItemGroup>
 </Project>
