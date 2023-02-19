@@ -150,6 +150,6 @@ System.Reflection.MissingMetadataException: 'System.Text.Json.Serialization.Conv
 
 but that [link takes us to a page](https://dotnet.github.io/native/troubleshooter/type.html) that sorts out a `rd.xsl` file
 
-## After a night on it, prob not worth starting to understand optimising outputs when it involes something as complex a the asp.net pipeline lol
+## After a night on it, prob not worth starting to understand optimising outputs when it involves something as complex a the asp.net pipeline lol
 
 Next time I'll use the [AOT documentation](https://github.com/dotnet/runtimelab/tree/feature/NativeAOT/docs/using-nativeaot) properly.
